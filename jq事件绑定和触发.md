@@ -14,14 +14,16 @@ input添加了change事件,js给input重新赋值，需要重新触发change事�
 <body>
     <div>
         <input id="age" type="text">
-        <button onclick="alert(1)">click</button>
+        <button id="button">click</button>
     </div>
     <script>
         $(function () {
+            // 注册change事件
             $('#age').change(function () {
                 console.log('age changed')
             })
             $('#button').click(function () {
+                // 修改value值并且重新触发change事件
                 $("#age").attr("value", 2123).trigger('change');
             })
         })
