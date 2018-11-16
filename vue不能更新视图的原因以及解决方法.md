@@ -8,7 +8,7 @@ var vm = new Vue({
   }
 })
 // el 未定义
-this.reportConfig.el = 'lit'
+vm.items.el = 'lit'
 ```
 + 直接替换数组item  
 ```
@@ -27,4 +27,14 @@ var vm = new Vue({
   }
 })
 vm.items.length = 2 // 不是响应性的
+```
+### 解决方法
++ 使用 vue提过的api set  
+```
+var vm = new Vue({
+  data: {
+    items: ['a', 'b', 'c']
+  }
+})
+Vue.set(vm.items.el, 'el', 'value')
 ```
