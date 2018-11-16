@@ -38,3 +38,23 @@ var vm = new Vue({
 })
 Vue.set(vm.items.el, 'el', 'value')
 ```
+注意事项：如果vm.items.el 已经被赋值 会造成Vue.set()不能监控该属性  
+```
+var vm = new Vue({
+  data: {
+    items: ['a', 'b', 'c']
+  }
+})
+vm.items.el = 'lit'
+Vue.set(vm.items.el, 'el', 'value') // 会改变数据 但不会响应式
+```
++ 使用Object.assign()  
+```
+var vm = new Vue({
+  data: {
+    items: ['a', 'b', 'c']
+  }
+})
+vm.items.el = 'lit'
+vm.items = Object.assign({}, vm.items)
+```
