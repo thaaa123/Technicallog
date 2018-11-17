@@ -1,7 +1,7 @@
 
 ### 不能更新视图的原因
 ```
-// 下面vm对象 都是使用这个
+// vm对象
 var vm = new Vue({
   data: {
     items: ['a', 'b', 'c']
@@ -22,7 +22,7 @@ vm.items[1] = 'x' // 不是响应性的
 vm.items.length = 2 // 不是响应性的
 ```
 ### 解决方法
-+ 使用 vue提过的api set  
++ 使用 vue提供的API set  
 ```
 Vue.set(vm.items.el, 'el', 'value')
 ```
