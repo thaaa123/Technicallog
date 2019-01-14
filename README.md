@@ -2,7 +2,8 @@
 1. es6  
 [es6语法使用小技巧](https://github.com/thaaa123/Technicallog/blob/master/es6/es6%E8%AF%AD%E6%B3%95%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7.md)
 2. git  
-[git修改账户密码](https://github.com/thaaa123/Technicallog/blob/master/git/git%E4%BF%AE%E6%94%B9%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81.md)
+[git修改账户密码](https://github.com/thaaa123/Technicallog/blob/master/git/git%E4%BF%AE%E6%94%B9%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81.md)   
+[git常见命令]()
 3. jq  
 [jq事件绑定和自动触发事件](https://github.com/thaaa123/Technicallog/blob/master/jq/jq%E4%BA%8B%E4%BB%B6%E7%BB%91%E5%AE%9A%E5%92%8C%E8%87%AA%E5%8A%A8%E8%A7%A6%E5%8F%91%E4%BA%8B%E4%BB%B6.md)
 4. vue  
