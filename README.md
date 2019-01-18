@@ -8,6 +8,6 @@
 [jq事件绑定和自动触发事件](https://github.com/thaaa123/Technicallog/blob/master/jq/jq%E4%BA%8B%E4%BB%B6%E7%BB%91%E5%AE%9A%E5%92%8C%E8%87%AA%E5%8A%A8%E8%A7%A6%E5%8F%91%E4%BA%8B%E4%BB%B6.md)
 4. vue  
 [vue不能更新视图的原因以及解决方法](https://github.com/thaaa123/Technicallog/blob/master/vue/vue%E4%B8%8D%E8%83%BD%E6%9B%B4%E6%96%B0%E8%A7%86%E5%9B%BE%E7%9A%84%E5%8E%9F%E5%9B%A0%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.md)   
-[vue-lazyload图片懒加载注意点](https://github.com/thaaa123/Technicallog/blob/master/vue/vue%E4%B8%8D%E8%83%BD%E6%9B%B4%E6%96%B0%E8%A7%86%E5%9B%BE%E7%9A%84%E5%8E%9F%E5%9B%A0%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.md)
+[vue-lazyload图片懒加载注意点](https://github.com/thaaa123/Technicallog/blob/master/vue/vue-lazyload%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD%E6%B3%A8%E6%84%8F%E7%82%B9.md)
 5. 杂谈  
 [转基因食品杂谈](https://github.com/thaaa123/Technicallog/blob/master/%E6%9D%82%E8%B0%88/%E8%BD%AC%E5%9F%BA%E5%9B%A0%E9%A3%9F%E5%93%81%E6%9D%82%E8%B0%88.md)
