@@ -12,4 +12,4 @@
 5. 杂谈  
 [转基因食品杂谈](https://github.com/thaaa123/Technicallog/blob/master/%E6%9D%82%E8%B0%88/%E8%BD%AC%E5%9F%BA%E5%9B%A0%E9%A3%9F%E5%93%81%E6%9D%82%E8%B0%88.md)
 6. 还原设计稿  
-[移动端rem设计方案](https://github.com/thaaa123/Technicallog/blob/master/%E6%9D%82%E8%B0%88/%E8%BD%AC%E5%9F%BA%E5%9B%A0%E9%A3%9F%E5%93%81%E6%9D%82%E8%B0%88.md)
+[移动端rem设计方案](https://github.com/thaaa123/Technicallog/blob/master/%E8%BF%98%E5%8E%9F%E8%AE%BE%E8%AE%A1%E7%A8%BF/%E7%A7%BB%E5%8A%A8%E7%AB%AFrem%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%A1%88.md)
