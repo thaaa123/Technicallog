@@ -9,12 +9,12 @@
 ```
 <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
 ```
-.3 vue-cli3 install pxtorem   
+.3 vue-cli3 install pxtorem px自动转rem
 ```
 npm i postcss-pxtorem -save
 ```
 ```
-// 配置 package.json postcss-pxtorem 
+// 配置 postcss-pxtorem package.json  
   "postcss": {
     "plugins": {
       "autoprefixer": {},
