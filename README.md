@@ -11,3 +11,5 @@
 [vue-lazyload图片懒加载注意点](https://github.com/thaaa123/Technicallog/blob/master/vue/vue-lazyload%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD%E6%B3%A8%E6%84%8F%E7%82%B9.md)
 5. 杂谈  
 [转基因食品杂谈](https://github.com/thaaa123/Technicallog/blob/master/%E6%9D%82%E8%B0%88/%E8%BD%AC%E5%9F%BA%E5%9B%A0%E9%A3%9F%E5%93%81%E6%9D%82%E8%B0%88.md)
+6. 还原设计稿  
+[移动端rem设计方案](https://github.com/thaaa123/Technicallog/blob/master/%E6%9D%82%E8%B0%88/%E8%BD%AC%E5%9F%BA%E5%9B%A0%E9%A3%9F%E5%93%81%E6%9D%82%E8%B0%88.md)
