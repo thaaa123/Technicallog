@@ -8,3 +8,10 @@ git branch -a
 git remote -v
 ```
 + 添加tag
+```
+git tag -a sit-2019.3.22-1 -m "sit-2019.3.22-1"
+```
++ 推送tag
+```
+git push origin --tags
+```
