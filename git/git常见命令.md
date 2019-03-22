@@ -7,3 +7,4 @@ git branch -a
 ```
 git remote -v
 ```
++ 添加tag
