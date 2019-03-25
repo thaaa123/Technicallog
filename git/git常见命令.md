@@ -25,5 +25,5 @@ git checkout -b dev origin/dev
 ```
 + 合并分支代码
 ```
-git merge dev or tag() 
+git merge dev or tag
 ```
