@@ -25,13 +25,15 @@
             font-weight: 400;
             line-height: 1.769230769230769;
             will-change: height;
-            /* transition效果时间 */
-            transition-duration: .3s;
-            /* transition触发效果的属性 默认是all */
-            transition-property: all;
             background-color: peachpuff;
             /* 非常重要的属性 */
             overflow: hidden;
+        }
+        .collapse-transition {
+            /* transition效果时间 */
+            transition-duration: .3s;
+            /* transition触发效果的属性 默认是all */
+            transition-property: height;
         }
     </style>
 </head>
@@ -39,7 +41,7 @@
     <div class="container">
         <div class="collapse">
             <div class="title">一致性 Consistency</div>
-            <div class="content">
+            <div class="content collapse-transition">
                 <div>#高度属性必须要要设置 不然不会触发效果</div>
                 <div>#./js/collapse-transition.js element基于vue实现的下拉展开效果</div>
             </div>
