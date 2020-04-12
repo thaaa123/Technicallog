@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collapse</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <script src="./js/jquery.min.js"></script>
+    <style>
+        .collapse {
+            padding: 24px;
+        }
+        .title {
+            display: flex;
+            height: 48px;
+            line-height: 48px;
+            color: #303133;
+            font-size: 13px;
+            font-weight: 500;
+            border-bottom: 1px solid #ebeef5;
+        }
+        .content {
+            font-size: 13px;
+            color: #303133;
+            font-weight: 400;
+            line-height: 1.769230769230769;
+            will-change: height;
+            /* transition效果时间 */
+            transition-duration: .3s;
+            /* transition触发效果的属性 默认是all */
+            transition-property: all;
+            background-color: peachpuff;
+            /* 非常重要的属性 */
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="collapse">
+            <div class="title">一致性 Consistency</div>
+            <div class="content">
+                <div>#高度属性必须要要设置 不然不会触发效果</div>
+                <div>#./js/collapse-transition.js element基于vue实现的下拉展开效果</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            let flag = true
+            let $title = $('.title')
+            let $content = $(".content")
+            let orginHeight = $content.innerHeight() + 'px'
+            $content.css("height", orginHeight)
+            $title.click(function(){
+                if (flag) { 
+                    $content.css("height", '0px')
+                } else {
+                    $content.css("height", orginHeight)
+                }
+                flag = !flag
+            });
+        })
+    </script>
+</body>
+</html>
